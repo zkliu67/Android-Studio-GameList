@@ -10,7 +10,8 @@
     android:layout_marginLeft="10dp"
     android:layout_marginRight="10dp"
     card_view:cardCornerRadius="10dp"
-    card_view:cardElevation="2dp">
+    card_view:cardElevation="2dp"
+    card_view:cardUseCompatPadding="true">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -67,16 +68,26 @@
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:orientation="horizontal">
+
                     <TextView
                         android:id="@+id/icon1"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
+                        android:paddingHorizontal="4dp"
+                        android:drawablePadding="4dp"
+                        android:textSize="20sp"
+                        android:textStyle="bold"
                         android:drawableStart="@drawable/ic_baseline_check_circle_outline_24"
                         tools:ignore="InvalidId" />
+
                     <TextView
                         android:id="@+id/icon2"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
+                        android:paddingHorizontal="4dp"
+                        android:drawablePadding="4dp"
+                        android:textSize="20sp"
+                        android:textStyle="bold"
                         android:drawableStart="@drawable/ic_baseline_check_circle_outline_24"
                         tools:ignore="InvalidId" />
 
@@ -84,6 +95,10 @@
                         android:id="@+id/icon3"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
+                        android:paddingHorizontal="4dp"
+                        android:drawablePadding="4dp"
+                        android:textSize="20sp"
+                        android:textStyle="bold"
                         android:drawableStart="@drawable/ic_baseline_check_circle_outline_24"
                         tools:ignore="InvalidId" />
 
@@ -100,7 +115,7 @@
             android:layout_height="60dp"
             android:id="@+id/gameDescription"
             android:paddingHorizontal="24dp"
-            android:textSize="18sp"
+            android:textSize="20sp"
             android:textStyle="bold"
             android:textColor="@color/regularText"
             />
